@@ -1,0 +1,12 @@
+{
+  "name": "x-lines",
+  "version": "1.0.0",
+  "description": "Crop your text to fit it into X lines",
+  "main": "index.js",
+  "repository": "https://github.com/Kelin2025/x-lines",
+  "author": "Anton Kosykh <kelin2025@yandex.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "resize-observer-polyfill": "^1.5.0"
+  }
+}
