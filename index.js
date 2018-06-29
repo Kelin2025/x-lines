@@ -63,3 +63,12 @@ export const cropObserver = new ResizeObserver(entries => {
     })
   })
 })
+
+export const initCropper = opts => {
+  opts.el._crop = {
+    text: "text" in opts ? opts.text : opts.el.innerHTML,
+    lines: opts.lines
+  }
+
+  cropObserver.observe(opts.el)
+}
